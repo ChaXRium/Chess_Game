@@ -1,0 +1,26 @@
+/* style.css */
+body {
+  font-family: Arial;
+  text-align: center;
+}
+
+#chessboard {
+  display: grid;
+  grid-template-columns: repeat(8, 60px);
+  grid-template-rows: repeat(8, 60px);
+  width: 480px;
+  margin: 0 auto;
+}
+
+.square {
+  width: 60px;
+  height: 60px;
+}
+
+.white {
+  background-color: #eee;
+}
+
+.black {
+  background-color: #444;
+}
